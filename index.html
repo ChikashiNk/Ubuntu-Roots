@@ -163,6 +163,29 @@ body{background-color:#FBF7EC;}
 .ct-footer [data-row*="middle"] .widget-title{--theme-heading-color:#F3ECD8;}
 .ct-footer [data-row*="bottom"]{color:#C9C0A4 !important;}
 .ct-footer-copyright p{color:#C9C0A4 !important;}
+
+/* background texture */
+body{background-image:url('/wp-content/uploads/backgrounds/soft-gradient-bg.webp');background-repeat:no-repeat;background-position:top center;background-size:cover;background-attachment:fixed;}
+
+/* contrast / visual-polish pass */
+.elementor-button{color:#FFFFFF !important;fill:#FFFFFF !important;transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease;box-shadow:0 4px 14px rgba(51,58,36,0.14);}
+.elementor-button:hover{color:#FFFFFF !important;transform:translateY(-2px);box-shadow:0 10px 22px rgba(51,58,36,0.22);}
+.wpforms-submit{background-color:#B4623E !important;color:#FFFFFF !important;border-color:#B4623E !important;transition:transform .18s ease, box-shadow .18s ease, background-color .18s ease;box-shadow:0 4px 14px rgba(51,58,36,0.14);}
+.wpforms-submit:hover{background-color:#9C4F30 !important;color:#FFFFFF !important;transform:translateY(-2px);box-shadow:0 10px 22px rgba(51,58,36,0.22);}
+</style>
+<style id="ubr-home-extra">
+/* country tiles: card frame, photo untouched in width (0 side padding) */
+.elementor-element-2f25f58 > .e-con-full{background:#F3EAD4;border-radius:16px;padding:18px 0 26px;transition:transform .2s ease, box-shadow .2s ease;}
+.elementor-element-2f25f58 > .e-con-full:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(51,58,36,0.14);}
+/* founders section: card frame */
+.elementor-element-280bc66{background:#F3EAD4;border-radius:20px;padding:36px 40px 40px;}
+/* testimonial cards: give them real contrast against the page bg (was near-invisible, same tone as page bg) */
+.elementor-element-18fcf61 > .elementor-widget-container,
+.elementor-element-2bda511 > .elementor-widget-container,
+.elementor-element-4fdac74 > .elementor-widget-container{background-color:#FFFFFF !important;box-shadow:0 6px 20px rgba(51,58,36,0.08);}
+/* stat band over photo: darken overlay + add text-shadow so numbers stay legible over busy areas of the photo */
+.elementor-element-6d77609{--overlay-opacity:0.82;}
+.elementor-element-921df7a .elementor-counter-number-wrapper{text-shadow:0 2px 10px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.85);}
 </style>
 </head>
 
